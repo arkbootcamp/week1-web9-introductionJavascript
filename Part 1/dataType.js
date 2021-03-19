@@ -38,8 +38,10 @@ console.log(typeof arrayData);
 
 // NULL ==========================================================
 let nullData = null;
-console.log(nullData);
+console.log(nullData); // null
+// jika menggunakan typeof pada null maka akan berubah menjadi object
+console.log(typeof nullData); // object
 
 // UNDEFINED =====================================================
-let undefinedData;
-console.log(undefinedData);
+const undefinedData = console.log(undefinedData); // undefined
+console.log(typeof undefinedData); // "undefined"
